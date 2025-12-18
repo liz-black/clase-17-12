@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+    <title>Formulario con estilos CSS</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <div class="contenedor-logo">
+        <img src="logo.png" width="200" height="200">
+    </div>
+
+    <h1>FORMULARIO DE CAPTURA DE DATOS</h1>
+    <h2>NUEVO PEDIDO</h2>
+
+    <form>
+
+        <div class="cuadro-azul">
+            <table>
+                <tr>
+                    <td>Nombre:</td>
+                    <td>
+                        <input type="text" name="nombre" class="dato">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Apellidos:</td>
+                    <td>
+                        <input type="text" name="apellidos" class="dato">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Direccion:</td>
+                    <td>
+                        <input type="text" name="direccion" class="dato">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="cuadro-azul">
+            <p>Numero de tarjeta de credito</p>
+            <p>
+                <input type="text" name="tarjeta" class="dato">
+            </p>
+            <p>
+                <input type="radio" name="banco"> Banamex
+            </p>
+            <p>
+                <input type="radio" name="banco"> Banorte
+            </p>
+            <p>
+                <input type="radio" name="banco"> HSBC
+            </p>
+            <p>
+                <input type="radio" name="banco"> Banco Azteca
+            </p>
+        </div>
+
+        <div class="contenedor-enviar">
+            <input type="submit" value="Realizar pedido">
+        </div>
+
+    </form>
+
+    <div class="pie">
+        <p>Copyright 2021 - Derechos reservados Flower Shop</p>
+        <p>Programador: Gilberto Bahena Salas</p>
+    </div>
+
+</div>
+
+</body>
+</html>
